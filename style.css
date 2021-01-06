@@ -1,0 +1,38 @@
+h1{
+  font-size: 50px;
+  font-family: 'Staatliches', cursive;
+  text-align: center;
+}
+
+p{
+  color: grey;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: helvetica;
+  text-align: center;
+  margin: auto;
+}
+
+li{
+  color: black;
+  padding-left: 20px;
+  font-family: helvetica;
+  font-weight: 100;
+  font-size: 25px;
+}
+
+.image{
+  height: 600px;
+  width: 450px;
+}
+
+.image2{
+  align-content: center;
+}
+
+.title{
+  font-size: 72px;
+  font-family: helvetica;
+  text-align: center;
+}
