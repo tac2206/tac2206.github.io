@@ -9,7 +9,7 @@ h1{
 }
 
 body{
-  background-color: #fbfbfb;
+  //background-color: #fbfbfb;
 }
 
 p{
@@ -18,24 +18,20 @@ p{
   font-size: 20px;
   line-height: 30px;
   font-family: helvetica;
-  width: 50%;
-  max-width: 800px;
-  min-width: 300px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-left: 100px;
 }
 
 li{
-  color: black;
-  padding-left: 20px;
+  color: grey;
   font-family: helvetica;
-  font-weight: 100;
-  font-size: 25px;
-  width: 50%;
+  font-weight: 180;
+  font-size: 18px;
   max-width: 800px;
   min-width: 300px;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .image{
@@ -45,21 +41,33 @@ li{
 
 .image2{
   align-content: center;
+  padding-top: 10%
 }
 
 .title{
   font-size: 72px;
-  font-family: helvetica;
+  font-family: 'Staatliches', cursive;
   text-align: center;
 }
 
-.special{
-  text-align: center;
-  align-items: center;
-  width: 100%
+.intro{
+  text-align: left;
 }
 
 .Contact{
   text-align: center;
   align-content: center;
+}
+
+.work{
+  color: Black;
+  font-weight:100;
+  font-size: 18px;
+  line-height: 20px;
+  padding-top: 5%
+}
+
+.buttons{
+  margin-top: 10%;
+  text-align: center;
 }
