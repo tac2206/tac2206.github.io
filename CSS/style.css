@@ -1,0 +1,119 @@
+h1{
+  font-size: 50px;
+  font-family: 'Staatliches', cursive;
+  text-align: center;
+  padding-top:2%;
+  padding-bottom:2%;
+  background-color: #81B7BD;
+  text-decoration: underline overline;
+}
+
+h1:hover {
+  color: white;
+  transition-duration: 1s;
+}
+
+body{
+  background-color: #fbfbfb;
+  margin-left: 10%;
+  margin-right:10%;
+}
+
+p{
+  color: grey;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: helvetica;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%
+}
+
+li{
+  color: grey;
+  font-family: helvetica;
+  font-weight: 180;
+  font-size: 18px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 10.7%;
+  margin-right: 10%;
+}
+
+.image{
+  height: 600px;
+  width: 450px;
+}
+
+.image2{
+  align-content: center;
+  padding-top: 10%
+}
+
+.title{
+  font-size: 72px;
+  font-family: 'Staatliches', cursive;
+  text-align: right;
+  padding-top: 10%;
+}
+
+.intro{
+  text-align: right;
+  padding-left:10%;
+}
+
+.Contact{
+  text-align: center;
+  align-content: center;
+  padding-bottom: 10%;
+}
+
+.work{
+  color: Black;
+  font-weight:100;
+  font-size: 18px;
+  padding-top: 2%;
+  margin-left: 2%
+}
+
+.work_details{
+  margin-left:12%;
+}
+
+.buttons{
+  text-align: right;
+  margin-right: 10%;
+}
+
+button {
+   padding: 15px 30px;
+   text-align: center;
+   display: inline-block;
+   font-size: 16px;
+   border-radius: 15px;
+   background-color: white;
+   color: black;
+   border: 2px solid Black;
+   margin-bottom: 30px;
+}
+
+button {
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #81B7BD;
+  color: white;
+}
+
+.portfolio{
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%
+}
+
+.link{
+  text-align: center;
+  margin-top: 0;
+}

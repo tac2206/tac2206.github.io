@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <title>Theo Chow</title>
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
 <div>
 <head>
 
@@ -14,19 +15,22 @@
   <div class="col-6">
 
       <h1 class="title">
-        <link rel="stylesheet" type="text/css" href="./css/style.css">
         <strong>  <em>Theodore Chow</em>   </strong>
       </h1>
 
 </head> <body>
 
     <div class="intro">
-      <p> I'm a current Columbia student pursing psychology and economics. I'm originally from Hong Kong but I'm based in New York. I would describe myself as a creative problemm solver with a strong work ethic. My interests include tech, venture capital, law & justice, entreprenuership, photography, coffee and more!<p>
+      <p> I'm a current freshman at Columbia University (class of 2024), planning to pursue a major in psychology and/or economics. I'm originally from Hong Kong but I'm based in New York at the moment. I would describe myself as a creative problem solver with a strong work ethic. My interests include tech, venture capital, law & justice, entreprenuership, photography, coffee and more!<p>
     </div>
 
 <div class="buttons">
-<button type="button">Resume</button>
-<button type="button">Contact me</button>
+  <form method="get" action="resume.pdf">
+        <button type="submit">Resume</button>
+    </form>
+  <form method="post" action="mailto:tac2206@columbia.edu?subject=subject&message=message">
+        <button type="submit">Contact Me!</button>
+  </form>
 </div>
 
   </div>
@@ -41,18 +45,18 @@
 <div>
   <h1> Work Experience </h1>
   <p class="work"> Asia Business Council </p>
-    <li> Asia's largest independent organization of top executives comprising of industry leaders, such as Temasek, SK Holdings, Hang Lung Properties, WuXi AppTec, etc.</li>
-    <li> Conducted research and prepared business case studies on Asian companies coping with covid-19, in partnership with HKUST and Harvard Publishing.</li>
-    <li> Researched sustainability-related financial disclosures. </li>
-    <li> Interviewed top executives and performed company analysis. </li>
+    <li class="work_details"> Asia's largest independent organization of top executives comprising of industry leaders, such as Temasek, SK Holdings, Hang Lung Properties, WuXi AppTec, etc.</li>
+    <li class="work_details"> Conducted research and prepared business case studies on Asian companies coping with covid-19, in partnership with HKUST and Harvard Publishing.</li>
+    <li class="work_details"> Researched sustainability-related financial disclosures. </li>
+    <li class="work_details"> Interviewed top executives and performed company analysis. </li>
   <p class="work"> InReality </p>
-    <li> Global IT firm specializing in customer data analytics using facial & thermal imaging. </li>
-    <li> Upgraded and shipped 3000+ thermal imaging devices to help businesses in the US reopen amidst relaxing coronavirus measures. </li>
-    <li> Created accuracy reports on different softwares for occupancy monitors. </li>
-    <li> Contributed to the user interface design process for device configuration settings. </li>
+    <li class="work_details"> Global IT firm specializing in customer data analytics using facial & thermal imaging. </li>
+    <li class="work_details"> Upgraded and shipped 3000+ thermal imaging devices to help businesses in the US reopen amidst relaxing coronavirus measures. </li>
+    <li class="work_details"> Created accuracy reports on different softwares for occupancy monitors. </li>
+    <li class="work_details"> Contributed to the user interface design process for device configuration settings. </li>
   <p class="work"> Suphia's Functional Foods </p>
-    <li> Local start-up that produces healthy, vegan bars and nutritional snacks </li>
-    <li> Lead photographer, social media content creator, website developer </li>
+    <li class="work_details"> Local start-up that produces healthy, vegan bars and nutritional snacks </li>
+    <li class="work_details"> Lead photographer, social media content creator, website developer </li>
 </div>
 
 <div>
@@ -68,7 +72,7 @@
 </div>
 
 <div>
-  <h1> <em> Books I'm reading </em> </h1>
+  <h1> Books I'm reading </h1>
   <ul>
     <li> Thinking Fast & Slow by Daniel Khaneman </li>
     <li> The Greening of Asia: The Business Case for Solving Asia's Environmental Emergency by Mark Clifford </li>
@@ -76,21 +80,26 @@
     <li> Zero to One: Notes on Startups, or How to Build the Future by Peter Thiel </li>
   </ul>
 </div>
+</body>
 
 <h1> Photography Portfolio </h1>
-<div class="photo">
-      <div class="col-4">
-          <img class="image_c1" src="c1" alt="a picture of coffee">
+<div class="portfolio">
+  <p class="link"> Instagram: <a href="http://www.instagram.com/coffeebytheo">@coffeebytheo</a> </p>
+<div class="row">
+   <div class="col-6 col-md-4">
+          <img class="image_c1" src="c1.png" style="width:100%" alt="photo of coffee">
+          <img class="image_c4" src="c4.png" style="width:100%" alt="photo of coffee">
       </div>
 
-      <div class="col-4">
-          <img class="image_c2" src="c2" alt="a picture of coffee">
+      <div class="col-6 col-md-4">
+        <img class="image_c2" src="c2.png" style="width:100%" alt="photo of coffee">
+        <img class="image_c5" src="c5.png" style="width:100%" alt="photo of coffee">
       </div>
 
-      <div class="col-4">
-          <img class="image_c3" src="c3" alt="a picture of coffee">
-      </div>
-    </div>
+      <div class="col-6 col-md-4">
+        <img class="image_c3" src="c3.png" style="width:100%" alt="photo of coffee">
+        <img class="image_c6" src="c6.png" style="width:100%" alt="photo of coffee">
+      </div> </div> </div>
 
 <div class="Contact">
 <h1> Contact me </h1>
@@ -101,6 +110,4 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
        <script src="/js/index.js"></script>
-
-</body>
 </html>
