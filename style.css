@@ -2,14 +2,39 @@ h1{
   font-size: 50px;
   font-family: 'Staatliches', cursive;
   text-align: center;
-  margin-block-start: 0.67em;
-  margin-block-end: 0.67em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  padding-top:2%;
+  padding-bottom:2%;
+  background-color: #81B7BD;
+  text-decoration: underline overline;
+}
+
+h1:hover {
+  color: white;
+  transition-duration: 1s;
+}
+
+.title {
+    animation-duration: 8s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 250px;
+  }
+  100% {
+    margin-left: 0%;
+  }
 }
 
 body{
-  //background-color: #fbfbfb;
+  background-color: #fbfbfb;
+  margin-left: 10%;
+  margin-right:10%;
 }
 
 p{
@@ -18,7 +43,9 @@ p{
   font-size: 20px;
   line-height: 30px;
   font-family: helvetica;
-  padding-left: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%
 }
 
 li{
@@ -26,11 +53,9 @@ li{
   font-family: helvetica;
   font-weight: 180;
   font-size: 18px;
-  max-width: 800px;
-  min-width: 300px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-left: 10%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 10.7%;
   margin-right: 10%;
 }
 
@@ -47,27 +72,77 @@ li{
 .title{
   font-size: 72px;
   font-family: 'Staatliches', cursive;
-  text-align: center;
+  text-align: right;
+  padding-top: 10%;
 }
 
 .intro{
-  text-align: left;
+  text-align: right;
+  padding-left:10%;
 }
 
 .Contact{
   text-align: center;
   align-content: center;
+  padding-bottom: 10%;
 }
 
 .work{
   color: Black;
   font-weight:100;
   font-size: 18px;
-  line-height: 20px;
-  padding-top: 5%
+  padding-top: 2%;
+  margin-left: 2%
+}
+
+.work_details{
+  margin-left:12%;
 }
 
 .buttons{
-  margin-top: 10%;
+  text-align: right;
+  margin-right: 10%;
+}
+
+button {
+   padding: 15px 30px;
+   text-align: center;
+   font-size: 16px;
+   background-color: white;
+   color: black;
+   border: 2px solid Black;
+   margin-bottom: 30px;
+   display: inline-block;
+}
+
+.round_border {
+  border-radius: 12px;
+}
+
+button {
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #81B7BD;
+  color: white;
+}
+
+.portfolio{
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+}
+
+.image_c1, .image_c2, .image_c3{
+  padding-bottom: 4%;
+}
+
+.link{
   text-align: center;
+  margin-top: 0;
+}
+
+.social_links{
+  margin-top:10%
 }

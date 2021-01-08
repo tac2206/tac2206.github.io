@@ -11,10 +11,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 </style>
 
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#Intro">Intro <span class="sr-only"></span></a>
+      <a class="nav-item nav-link" href="#Work_Exp">Work Experience</a>
+      <a class="nav-item nav-link" href="#Selected_Writing">Selected Writing</a>
+      <a class="nav-item nav-link" href="#Books">Books I'm Reading</a>
+      <a class="nav-item nav-link" href="#Photography">Photography Portfolio</a>
+    </div>
+  </div>
+</nav>
+
 <div class="row">
   <div class="col-6">
 
-      <h1 class="title">
+      <h1 class="title" id="Intro">
         <strong>  <em>Theodore Chow</em>   </strong>
       </h1>
 
@@ -24,13 +40,18 @@
       <p> I'm a current freshman at Columbia University (class of 2024), planning to pursue a major in psychology and/or economics. I'm originally from Hong Kong but I'm based in New York at the moment. I would describe myself as a creative problem solver with a strong work ethic. My interests include tech, venture capital, law & justice, entreprenuership, photography, coffee and more!<p>
     </div>
 
-<div class="buttons">
-  <form method="get" action="resume.pdf">
-        <button type="submit">Resume</button>
-    </form>
-  <form method="post" action="mailto:tac2206@columbia.edu?subject=subject&message=message">
-        <button type="submit">Contact Me!</button>
-  </form>
+<div class="buttons" id="container">
+
+<button type="button" class="btn btn-outline-info">Resume</button>
+<button type="button" class="btn btn-outline-info">Contact Me</button>
+
+<!-- <button type="button" class="btn btn-outline-info">Resume</button> </form> -->
+  <!-- <form download="resume.pdf">
+        <!<button class="round_border" id="button 1" type="submit">Resume</button>
+      </form>
+  <form action="mailto:tac2206@columbia.edu?subject=subject&message=message">
+        <button class="round_border" id="button 2" type="submit">Contact Me!</button>
+      </form> -->
 </div>
 
   </div>
@@ -43,7 +64,7 @@
 </div> </div>
 
 <div>
-  <h1> Work Experience </h1>
+  <h1 id="Work_Exp"> Work Experience </h1>
   <p class="work"> Asia Business Council </p>
     <li class="work_details"> Asia's largest independent organization of top executives comprising of industry leaders, such as Temasek, SK Holdings, Hang Lung Properties, WuXi AppTec, etc.</li>
     <li class="work_details"> Conducted research and prepared business case studies on Asian companies coping with covid-19, in partnership with HKUST and Harvard Publishing.</li>
@@ -60,7 +81,7 @@
 </div>
 
 <div>
-  <h1> Selected Writing </h1>
+  <h1 id="Selected_Writing"> Selected Writing </h1>
   <ul>
     <li> <a href="https://columbiaventurepartners.medium.com/the-rise-and-growth-of-plant-based-food-4760b3ff2b0d">The Rise and Growth of Plant-Based Food</a> </li>
     <li> <a href="https://www.therchktruth.org/opinion-2/2019/9/14/a-modern-day-slavery?rq=Theodore%20Chow">Modern Day Slavery</a> </li>
@@ -72,7 +93,7 @@
 </div>
 
 <div>
-  <h1> Books I'm reading </h1>
+  <h1 id="Books"> Books I'm Reading </h1>
   <ul>
     <li> Thinking Fast & Slow by Daniel Khaneman </li>
     <li> The Greening of Asia: The Business Case for Solving Asia's Environmental Emergency by Mark Clifford </li>
@@ -82,7 +103,7 @@
 </div>
 </body>
 
-<h1> Photography Portfolio </h1>
+<h1 id="Photography"> Photography Portfolio </h1>
 <div class="portfolio">
   <p class="link"> Instagram: <a href="http://www.instagram.com/coffeebytheo">@coffeebytheo</a> </p>
 <div class="row">
@@ -101,11 +122,11 @@
         <img class="image_c6" src="c6.png" style="width:100%" alt="photo of coffee">
       </div> </div> </div>
 
-<div class="Contact">
+<div class="Contact" id="Contact">
 <h1> Contact me </h1>
-    <a href="https://www.linkedin.com/in/theodore-chow-8973681a7/">Linkedin</a>
-    <a href="http://www.instagram.com/theodorechow">Instagram</a>
-    <a href="mailto:tac2206@columbia.edu">Email me</a>
+    <a class="social_links" href="https://www.linkedin.com/in/theodore-chow-8973681a7/">Linkedin</a>
+    <a class="social_links" href="http://www.instagram.com/theodorechow">Instagram</a>
+    <a class="social_links" href="mailto:tac2206@columbia.edu">Email</a>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
